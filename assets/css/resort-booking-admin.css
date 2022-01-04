@@ -1,0 +1,122 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 65%;
+  margin: 0 auto;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.booking-detail table {  }
+.booking-detail tbody tr:nth-child(even) {background: #f5f5f5;}
+.booking-detail tbody tr:nth-child(odd) {background: #ffffff;}
+.booking-detail tbody tr td { padding: 10px; }
+.modal-content h3{text-align: center;font-weight: bold;}
+
+
+.resort_booking_disable_dates .card {
+  position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0.4rem;
+}
+
+.resort_booking_disable_dates .card {
+  box-shadow: 0 0 13px 0 rgb(82 63 105 / 5%);
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.resort_booking_disable_dates .form-group {
+    margin-bottom: 1rem;
+}
+
+.resort_booking_disable_dates .form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+
+.resort_booking_disable_dates label {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+  align-items: center;
+}
+.resort_booking_disable_dates .control-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.resort_booking_disable_dates .form-check-label {
+    margin-bottom: 0;
+}
+
+.resort_booking_disable_dates .form-check-input {
+    position: absolute;
+    margin-top: .3rem;
+    margin-left: -1.25rem;
+}
+
+.resort_booking_disable_dates input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.resort_booking_disable_dates .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a5a5a;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.4rem;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
